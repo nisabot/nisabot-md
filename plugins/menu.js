@@ -37,8 +37,8 @@ let tags = {
 const defaultMenu = {
   before: `
 ╔════════════════╗
-╠➤👤: ${global.ownername}
-╠➤💻: YahyaGanzz
+╠➤👤: ${global.nameown}
+╠➤💻: 𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯
 ╠➤⏰: %uptime
 ╠➤🗓️: %date
 ╚═══════╦════════╝
@@ -52,8 +52,8 @@ const defaultMenu = {
   header: '╠♨ %category ♨',
   body: '╠✠ %cmd %islimit %isPremium',
   footer: '╠════════════════╝\n╠════════════════╗',
-  after: `${global.namabot}
-*𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 ${global.ownername}
+  after: `${global.nameown}
+*𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 ${global.nameown}
 ${global.ownerinsta}
 `,
 }
@@ -159,9 +159,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
     conn.sendHydrated(m.chat, text.trim(), 'YahyaGanzz', null, 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g', 'YOUTUBE MBY', '', '', [
-      ['𝗚𝗥𝗨𝗣 𝗕𝗢𝗧', '/donasi'],
-      ['?𝗝𝗔𝗦𝗔 𝗥𝗨𝗡?', '/sewa'],
-      ['!𝗢𝗪𝗡𝗘𝗥!', '/owner']
+      ['Donasi', '/donasi'],
+      ['?Sewa?', '/sewa'],
+      ['!Owner!', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
