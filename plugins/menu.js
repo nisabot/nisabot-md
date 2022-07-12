@@ -158,7 +158,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
-    conn.sendHydrated(m.chat, text.trim() 'Void Great Emperor', null, 'https://youtube.com/channel/UCGAsDPrOq2irv9xqpG-NEuw', 'YOUTUBE MBY', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Void Great Emperor', null, 'https://youtube.com/channel/UCGAsDPrOq2irv9xqpG-NEuw', 'YOUTUBE MBY', '', '', [
       ['Donasi', '/donasi'],
       ['?Sewa?', '/sewa'],
       ['!Owner!', '/owner']
