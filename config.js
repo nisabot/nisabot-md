@@ -1,16 +1,36 @@
 let fs = require('fs')                    //CREATOR = YahyaGanzz , DEVBOT
 let chalk = require('chalk')
+/*============== SOCIAL ==============*/
+
+// kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
+global.sig = 'https://instagram.com/maulana_yusuf.id' //Link Instagrammu
+global.sgh = 'https://github.com/Rizkianugrah' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/FXSFCCYMGveGEcnA9HVEtm'
+global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
+global.snh = 'https://194.233.66.232/' //Hmmm, Ini boleh kalian isi terserah :v
+
+/*============== PAYMENT ==============*/
+global.povo = '083199789390' //Nomor Ovomu
+global.ppulsa = '081387089252' //Nomor SimCard Yang Kamu Pake
+global.psaweria = 'https://saweria.co/owneryusuf' //Link Saweriamu Kalo Nggada Ketik - aja
+
+/*============== NOMOR ==============*/
+global.nomorbot = '6283199789390' //Nomor Bot
+global.nomorown = '6281387089252' //Nomor Owner
+global.namebot = 'Ambulance BOT' //Nama Bot
+global.nameown = '𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯' // Nama Owner
+
+
+/*============== STAFF ==============*/
 global.owner = [
-  ['6281291136530'],
+  ['6281387089252'],
   ['6283199789390'],
-  ['6281387089252', 'Owner 𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯', true]  
-  
-] 
-global.ownername = [['𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯']]
-global.namabot = [['AMBULANCE-Mdོ']]
-global.ownerinsta = [['@maulana_yusuf.id']]
-global.mods = [] 
-global.prems = [] 
+  ['6281382523577'],
+  ['6281387089252', '𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯', true] //Ganti jd nomormu sama Namamu
+  // [number, dia creator/owner?, dia developer?]
+] // Put your number here
+global.mods = [] // Want some help?
+global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 global.APIs = { // API Prefix
   // name: 'https://website'
