@@ -7,7 +7,6 @@ let handler = async m => m.reply(`
 │ • *Ovo:* [083199789390]
 ❏────
 `
-
             https://chat.whatsapp.com/FXSFCCYMGveGEcnA9HVEtm
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
