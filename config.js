@@ -1,63 +1,17 @@
-let fs = require('fs')                    //CREATOR = 𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯
+let fs = require('fs')                    //CREATOR = 𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯 ,
 let chalk = require('chalk')
-import { fileURLToPath } from 'url'
-import moment from 'moment-timezone'
-
-/*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
-    
-    let d = new Date(new Date + 3600000)
-    let locale = 'id'
-    // d.getTimeZoneOffset()
-    // Offset -420 is 18.00
-    // Offset    0 is  0.00
-    // Offset  420 is  7.00
-    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
-    let week = d.toLocaleDateString(locale, { weekday: 'long' })
-    let date = d.toLocaleDateString(locale, {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric'
-    })
-      
-    
-/*============== SOCIAL ==============*/
-
-// kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/maulana_yusuf.id' //Link Instagrammu
-global.sgh = 'https://github.com/Rizkianugrah' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/FXSFCCYMGveGEcnA9HVEtm'
-global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://194.233.66.232/' //Hmmm, Ini boleh kalian isi terserah :v
-
-/*============== PAYMENT ==============*/
-global.povo = '083199789390' //Nomor Ovomu
-global.ppulsa = '081387089252' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.co/owneryusuf' //Link Saweriamu Kalo Nggada Ketik - aja
-
-/*============== NOMOR ==============*/
-global.nomorbot = '6283199789390' //Nomor Bot
-global.nomorown = '6281387089252' //Nomor Owner
-global.namebot = 'Ambulance BOT' //Nama Bot
-global.nameown = '𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯' // Nama Owner
-
-
-/*============== STAFF ==============*/
 global.owner = [
-  ['6281387089252'],
+  ['6281291136530'],
   ['6283199789390'],
-  ['6281382523577'],
-  ['6281387089252', '𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯', true] //Ganti jd nomormu sama Namamu
-  // [number, dia creator/owner?, dia developer?]
-] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+  ['6281387089252', 'Owner 𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯', true]  
+  
+] 
+global.ownername = [['𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯']]
+global.namabot = [['AMBULANCE-Mdོ']]
+global.ownerinsta = [['@maulana_yusuf.id']]
+global.mods = [] 
+global.prems = [] 
 
-
-/*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
