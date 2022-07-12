@@ -37,7 +37,7 @@ let tags = {
 const defaultMenu = {
   before: `
 ╔════════════════╗
-╠➤👤: ${global.nameown}
+╠➤👤: ${global.ownername}
 ╠➤💻: 𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯
 ╠➤⏰: %uptime
 ╠➤🗓️: %date
@@ -52,8 +52,8 @@ const defaultMenu = {
   header: '╠♨ %category ♨',
   body: '╠✠ %cmd %islimit %isPremium',
   footer: '╠════════════════╝\n╠════════════════╗',
-  after: `${global.nameown}
-*𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 ${global.nameown}
+  after: `${global.ownername}
+*𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 ${global.ownername}
 ${global.ownerinsta}
 `,
 }
