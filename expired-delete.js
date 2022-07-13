@@ -8,12 +8,10 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     else global.db.data.chats[who].expired = undefined
     conn.reply(m.chat, `Berhasil menghapus hari kadaluarsa untuk Grup ini`, m)
 }
-handler.help = ['delexpired']
+handler.help = ['delexpired <hari>']
 handler.tags = ['owner']
-handler.command = /^(delexpired|delsewa|deleteexpired|delexp)$/i
+handler.command = /^(expired)$/i
 handler.owner = true
-handler.group = true
-
 module.exports = handler
 
 function msToDate(ms) {
