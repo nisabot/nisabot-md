@@ -12,7 +12,7 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: ` *𝐉𝐀𝐒𝐀 𝐑𝐔𝐍 𝐁𝐎𝐓 𝐓𝐈𝐍𝐆𝐆𝐀𝐋 𝐒𝐂𝐀𝐍\n𝐌𝐈𝐍𝐀𝐓? 𝐂𝐇𝐀𝐓 𝐖𝐀 𝐃𝐈𝐁𝐀𝐖𝐀𝐇*
 
-☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}✵
+☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}
 
 *Owner ${conn.user.name}*
 `,
