@@ -11,7 +11,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['delexpired']
 handler.tags = ['owner']
 handler.command = /^(delexpired|delsewa|deleteexpired|delexp)$/i
-handler.rowner = true
+handler.owner = true
 handler.group = true
 
 module.exports = handler
