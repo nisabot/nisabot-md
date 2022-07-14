@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-	conn.sendFile(m.chat, 'https://api.zacros.my.id/asupan/random', 'asupan.mp4', '𝗖𝗥𝗘𝗔𝗧𝗢𝗥➢VOID TRUE LORD\nDonasi : https://saweria.co/owneryusuf', m)
+	conn.sendFile(m.chat, 'https://api.zacros.my.id/asupan/random', 'asupan.mp4', '𝗖𝗥𝗘𝗔𝗧𝗢𝗥➢VoidTrueLord\nDonasi : https://saweria.co/owneryusuf', m)
 }
 handler.help = ['asupan']
 handler.tags = ['asupan']
