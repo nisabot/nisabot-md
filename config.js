@@ -7,7 +7,7 @@ global.owner = [
   
 ] 
 global.ownername = [['𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯']]
-global.namabot = [['AMBULANCE-Mdོ']]
+global.namabot = [['Annisa-Mdོ']]
 global.ownerinsta = [['@maulana_yusuf.id']]
 global.mods = [] 
 global.prems = [] 
@@ -43,7 +43,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'AMBULANCE-Mdོ'
+  var sticker_name = 'Annisa-Mdོ'
   var sticker_author = '𝓜𝓪𝓾𝓵𝓪𝓷𝓪 𝓨𝓾𝓼𝓾𝓯'
 } else {
   var sticker_name = stickerpack.spackname
