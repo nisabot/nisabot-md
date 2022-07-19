@@ -38,6 +38,7 @@ const defaultMenu = {
   before: `
 ╔════════════════╗
 ╠➤👤: ${global.ownername}
+╠➤ Hai, %ucapan %name!
 ╠➤💻: Nisa-BOT
 ╠➤⏰: %uptime
 ╠➤🗓️: %date
