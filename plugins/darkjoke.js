@@ -1,5 +1,6 @@
 let handler = async (m, { conn }) => {
-    conn.sendButtonImg(m.chat, global.API('https://api.zacros.my.id/randomimg/darkjokes'), 'Dark Jokes', wm, 'NEXT', '.darkjokes', m)
+let rest = 'https://api.zacros.my.id/randomimg/darkjokes'
+    conn.sendButtonImg(m.chat, rest, 'Dark? 🤨', wm2, 'NEXT', '.darkjokes', m)
 }
 handler.help = ['darkjokes']
 handler.tags = ['internet']
