@@ -44,13 +44,13 @@ const defaultMenu = {
 ╚═══════╦════════╝
 ╔═══════╩════════╗
 ║ 〘𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙼𝚄〙
-╠❥📈 : %limit
-╠❥〽 : %level
-╠❥🔥: %exp
+╠📈 : %limit
+╠〽 : %level
+╠🔥: %exp
 ╠════════════════╝
 %readmore`.trimStart(),
-  header: '╠♨ %category ♨',
-  body: '╠✠ %cmd %islimit %isPremium',
+  header: '╠ %category ',
+  body: '╠ %cmd %islimit %isPremium',
   footer: '╠════════════════╝\n╠════════════════╗',
   after: `${global.ownername}
 *𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 ${global.ownername}
@@ -231,7 +231,7 @@ function ucapan() {
         } else if (hour_now >= '15' && hour_now <= '17') {
           ucapanWaktu = 'Sore kak'
         } else if (hour_now >= '17' && hour_now <= '18') {
-          ucapanWaktu = 'Selamat Petang kak'
+          ucapanWaktu = 'Selamat Magrib kak'
         } else if (hour_now >= '18' && hour_now <= '23') {
           ucapanWaktu = 'Malam kak'
         } else {
