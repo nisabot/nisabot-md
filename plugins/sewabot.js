@@ -10,10 +10,22 @@ let handler = async (m, { conn }) => {
   let d = await fetch(c).then(a => a.buffer())
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
-  description: ` *𝐉𝐀𝐒𝐀 𝐑𝐔𝐍 𝐁𝐎𝐓 𝐓𝐈𝐍𝐆𝐆𝐀𝐋 𝐒𝐂𝐀𝐍\n𝐌𝐈𝐍𝐀𝐓? 𝐂𝐇𝐀𝐓 𝐖𝐀 𝐃𝐈𝐁𝐀𝐖𝐀𝐇*
+  description: ` *• SEWA BOT & UP TO PREMIUM •*
+        
+1. Grup / 30 Hari
+Rp. 15.000 Dana
+Rp. 15.000 Pulsa
 
-☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}
+2. Premium / 30 Hari
+Rp. 10.000 Dana
+Rp. 10.000 Pulsa
 
+3. Premium + Grup / 30 Hari
+Rp. 20.000 Dana
+Rp. 20.000 Pulsa
+
+wa.me/${owner[0]}
+*Bukan Bot!!!*
 *Owner ${conn.user.name}*
 `,
   buttonText: 'Harga Sesuai Pasaran',
@@ -26,7 +38,7 @@ let handler = async (m, { conn }) => {
   jpegThumbnail: baper },
   businessOwnerJid: `6281387089252@s.whatsapp.net`
   },
-  footerText: '',
+  footerText: 'https://trakteer.id/botannisa',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
