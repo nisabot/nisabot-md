@@ -1,4 +1,3 @@
-
 let handler = async (m, { conn,usedPrefix, command, text, args }) => {
        let user = global.db.data.users[m.sender]
        let pancingan = user.pancingan
@@ -7,10 +6,10 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
         switch (type) {
 	          case 'easy':
                                   let __timers = (new Date - global.db.data.users[m.sender].lastmancingeasy)
-                                  let _timers = (28800000 - __timers)
+                                  let _timers = (7200000 - __timers)
                                   let timers = clockString(_timers) 
                                   if (pancingan == 0 || umpan == 0) return m.reply('*Kamu belum memiliki Pancingan dan Umpan, Silahkan beli dulu..*')
-                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
+                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 7200000) {
                                   if (global.db.data.users[m.sender].pancingan > 1) {
                                   if (global.db.data.users[m.sender].umpan > 99) {
                                   let randomaku1 = `${Math.floor(Math.random() * 10)}`
@@ -99,10 +98,10 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                  break
 	          case 'normal':
                                   let __timerl = (new Date - global.db.data.users[m.sender].lastmancingeasy)
-                                  let _timerl = (28800000 - __timerl)
+                                  let _timerl = (7200000 - __timerl)
                                   let timerl = clockString(_timerl) 
                                   if (pancingan == 0 || umpan == 0) return m.reply('*Kamu belum memiliki Pancingan dan Umpan, Silahkan beli dulu..*')
-                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
+                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 7200000) {
                                   if (global.db.data.users[m.sender].pancingan > 2) {
                                   if (global.db.data.users[m.sender].umpan > 149) {
                                   let randomakud1 = `${Math.floor(Math.random() * 50)}`
@@ -191,10 +190,10 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                  break 
 	          case 'hard':
                                   let __timerh = (new Date - global.db.data.users[m.sender].lastmancingeasy)
-                                  let _timerh = (28800000 - __timerh)
+                                  let _timerh = (7200000 - __timerh)
                                   let timerh = clockString(_timerh) 
                                   if (pancingan == 0 || umpan == 0) return m.reply('*Kamu belum memiliki Pancingan dan Umpan, Silahkan beli dulu..*')
-                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
+                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 7200000) {
                                   if (global.db.data.users[m.sender].pancingan > 3) {
                                   if (global.db.data.users[m.sender].umpan > 199) {
                                   let randomakur1 = `${Math.floor(Math.random() * 100)}`
@@ -283,10 +282,10 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                  break
 	          case 'extreme':
                                   let __timere = (new Date - global.db.data.users[m.sender].lastmancingeasy)
-                                  let _timere = (28800000 - __timere)
+                                  let _timere = (7200000 - __timere)
                                   let timere = clockString(_timere) 
                                   if (pancingan == 0 || umpan == 0) return m.reply('*Kamu belum memiliki Pancingan dan Umpan, Silahkan beli dulu..*')
-                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
+                                  if (new Date - global.db.data.users[m.sender].lastmancingeasy > 7200000) {
                                   if (global.db.data.users[m.sender].pancingan > 4) {
                                   if (global.db.data.users[m.sender].umpan > 249) {
                                   let randomakue1 = `${Math.floor(Math.random() * 500)}`
