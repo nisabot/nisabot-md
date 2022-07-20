@@ -35,7 +35,7 @@ global.APIs = { // API Prefix
  zahir : 'https://zahirr-web.herokuapp.com',
  zekais : 'http://zekais-api.herokuapp.com',
  zeks : 'https://api.zeks.xyz',
- zenz : 'https://zenzapis.xyz'
+ zenz : 'https://zenzapis.xyz',
  alphabot: 'https://api-alphabot.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
