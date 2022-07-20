@@ -14,28 +14,47 @@ global.prems = []
 
 global.APIs = { // API Prefix
   // name: 'https://website'
-  nrtm: 'https://nurutomo.herokuapp.com',
-  xteam: 'https://api.xteam.xyz',
-  zahir: 'https://zahirr-web.herokuapp.com',
-  bcil: 'https://75.119.137.248:21587',
-  neoxr: 'https://api.neoxr.eu.org/',
-  gimez: 'https://masgimenz.my.id/',
-  melcanz: 'https://melcanz.com',
-  pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  restapi: 'https://x-restapi.herokuapp.com',
-  alphabot: 'https://api-alphabot.herokuapp.com'
+ amel : 'https://melcanz.com',
+ bg : 'http://bochil.ddns.net',
+ bsbt : 'https://rest-beni.herokuapp.com',
+ bx : 'https://bx-hunter.herokuapp.com',
+ dhnjing : 'https://dhnjing.xyz',
+ dzx : 'https://api.dhamzxploit.my.id',
+ erdwepe : 'https://erdwpe-api.herokuapp.com',
+ fdci : 'https://api.fdci.se',
+ hardianto : 'https://hardianto.xyz',
+ jonaz : 'https://jonaz-api-v2.herokuapp.com',
+ LeysCoder : 'https://leyscoders-api.herokuapp.com',
+ lolhuman : 'https://api.lolhuman.xyz',
+ neoxr : 'https://api.neoxr.my.id',
+ nrtm : 'https://nurutomo.herokuapp.com',
+ nzcha : 'http://nzcha-apii.herokuapp.com',
+ pencarikode : 'https://pencarikode.xyz',
+ violetics : 'https://violetics.pw',
+ xteam : 'https://api.xteam.xyz',
+ zahir : 'https://zahirr-web.herokuapp.com',
+ zekais : 'http://zekais-api.herokuapp.com',
+ zeks : 'https://api.zeks.xyz',
+ zenz : 'https://zenzapis.xyz'
+ alphabot: 'https://api-alphabot.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': '524e9d1f64f72f79',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.neoxr.eu.org/': '0fWgL9ID',
-  'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'ZZBk7EBb',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://x-restapi.herokuapp.com': 'BETA',
-  'https://api-alphabot.herokuapp.com': 'N7axnIq3'
+ 'https://api.neoxr.my.id' : 'JeJU827J',
+ 'https://api.lolhuman.xyz' : '9b817532fadff8fc7cb86862',
+ 'https://api.xteam.xyz' : 'NezukoTachibana281207',
+ 'https://api.zeks.xyz' : 'apivinz',
+ 'https://hardianto-chan.herokuapp.com' : 'hardianto',
+ 'https://hardianto.xyz' : 'hardianto',
+ 'https://leyscoders-api.herokuapp.com' : 'MIMINGANZ',
+ 'https://melcanz.com' : 'manHkmst',
+ 'https://pencarikode.xyz' : 'pais',
+ 'https://rest-beni.herokuapp.com' : 'benniismaelapikey',
+ 'https://violetics.pw' : 'beta',
+ 'https://zahirr-web.herokuapp.com' : 'zahirgans',
+ 'https://zekais-api.herokuapp.com' : 'zekais',
+ 'https://zenzapis.xyz' : '2220a34213'
+ 'https://api-alphabot.herokuapp.com': 'N7axnIq3'
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
