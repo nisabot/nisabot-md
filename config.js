@@ -26,20 +26,27 @@ global.APIs = { // API Prefix
   restapi: 'https://x-restapi.herokuapp.com',
   alphabot: 'https://api-alphabot.herokuapp.com',
   lolhuman : 'https://api.lolhuman.xyz',
-  zenz : 'https://zenzapis.xyz'
+  zekais: 'http://zekais-api.herokuapp.com',
+  vhtear: 'https://api.vhtear.com',
+  fxc7: 'https://fxc7-api.herokuapp.com',
+  bx: 'https://bx-hunter.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'NezukoTachibana281207',
+  'https://api.xteam.xyz': 'HIRO',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.neoxr.eu.org/': '0fWgL9ID',
-  'https://pencarikode.xyz': 'pais',
+  'https://api.neoxr.eu.org/': 'yntkts',
+  'https://pencarikode.xyz': 'APIKEY',
   'https://melcanz.com': 'ZZBk7EBb',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://x-restapi.herokuapp.com': 'BETA',
   'https://api-alphabot.herokuapp.com': 'N7axnIq3',
-  'https://api.lolhuman.xyz' : '9b817532fadff8fc7cb86862',
-  'https://zenzapis.xyz' : '2220a34213'
+  'https://api.lolhuman.xyz' : '2d118bcd18c4e779748a84b',
+  'https://api.vhtear.com': 'sayahafiz',
+  'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
+  'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
+  'http://zekais-api.herokuapp.com': 'grqgD6pU',
+  'https://bx-hunter.herokuapp.com': 'Ikyy69',
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
